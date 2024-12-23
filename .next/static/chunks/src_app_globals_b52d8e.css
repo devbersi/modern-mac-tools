@@ -665,11 +665,6 @@ body {
   padding-bottom: 5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -685,6 +680,11 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -715,11 +715,6 @@ body {
 .text-xs {
   font-size: .75rem;
   line-height: 1rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -1002,10 +997,6 @@ body {
 }
 
 @media (width >= 640px) {
-  .sm\:max-w-\[425px\] {
-    max-width: 425px;
-  }
-
   .sm\:flex-row {
     flex-direction: row;
   }
